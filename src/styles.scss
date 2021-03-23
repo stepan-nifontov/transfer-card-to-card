@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~normalize.scss';
+
+/* reset */
+h1, h2, h3 {
+    margin: 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* reset end */

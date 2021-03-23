@@ -108,7 +108,7 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "tsconfig.app.json",
+              "tsconfig.app.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -116,6 +116,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "transfer-card-to-card"
+    }
+  },
+  "defaultProject": "transfer-card-to-card",
+  "cli": {
+    "analytics": "2a7b09b9-a86b-4ea7-88fc-95d50c17874b"
+  }
 }
